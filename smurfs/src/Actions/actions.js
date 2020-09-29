@@ -9,7 +9,7 @@ import {
     UPDATE_SMURF_START,
     UPDATE_SMURF_SUCCESS,
     UPDATE_SMURF_FAIL,
-} from '../constants/ActionTypes.js';
+} from '../Constants/ActionTypes.js';
 
 export const getSmurfs = () => dispatch => {
     const apiUrl = 'http://localhost:3333/smurfs';
